@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Delhi!</string>
+    <string name="desc">Your one stop destination for all your Delhi travelling needs! We have all the spots, buzz and fun in store.</string>
+    <string name="comedy">LOL Till You Fall At Vir Das Biggest Ever Comedy Show</string>
+    <string name="formal">Five Formal Styles For Five Different Work Days</string>
+    <string name="edc">Line Up tickets are out!</string>
+    <string name="restaurant">The restaurant week is on!</string>
+    <string name="bakery">Delicious bakes</string>
+    <string name="coffee">A delicious cup at</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:maxHeight="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOUR GUIDE"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="150dp"/>
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="220dp"
+                    android:src="@drawable/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/desc"/>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LATEST"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_below="@id/desc"/>
+
+                <com.android.ipshita.delhi_tourguide.ScrollableGridView
+                    android:layout_below="@id/title"
+                    android:id="@+id/grid"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="10dp"
+                    android:isScrollContainer="false"
+                    android:numColumns="auto_fit"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#FFF"/>
+    </android.support.v4.widget.DrawerLayout>
+
