@@ -7,4 +7,7 @@
     <string name="restaurant">The restaurant week is on!</string>
     <string name="bakery">Delicious bakes</string>
     <string name="coffee">A delicious cup at</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>
