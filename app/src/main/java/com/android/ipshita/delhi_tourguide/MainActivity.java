@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(position==0){
-                    Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);
+                    Intent goToNextActivity = new Intent(MainActivity.this, toptenfoods.class);
                     startActivity(goToNextActivity);}
                 else if(position==1){
                         Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);

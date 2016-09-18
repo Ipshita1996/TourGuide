@@ -1,7 +1,10 @@
 package com.android.ipshita.delhi_tourguide;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -21,6 +24,17 @@ public class Food_n_Drinks extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(itemsAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==0)
+                {
+                    Intent goToNextActivity = new Intent(Food_n_Drinks.this, toptenfoods.class);
+                    startActivity(goToNextActivity);
+                }
+            }
+        });
 
 
     }
