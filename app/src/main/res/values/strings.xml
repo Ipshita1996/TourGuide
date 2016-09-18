@@ -10,4 +10,8 @@
     <string name="action_settings">Settings</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+
+    //this is for the sub activities
+    <string name="food_title_1">Top ten famous dishes of Delhi</string>
+    <string name="food_stitle_1">Check out the places you can try out the best.</string>
 </resources>
