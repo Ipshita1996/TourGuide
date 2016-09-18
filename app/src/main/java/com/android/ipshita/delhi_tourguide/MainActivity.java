@@ -1,5 +1,6 @@
 package com.android.ipshita.delhi_tourguide;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     GridView grid;
     int[] web = {
-            R.string.bakery,
+            R.string.topdishes,
             R.string.coffee,
             R.string.comedy,
             R.string.formal,
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             R.string.restaurant
     };
     int[] imageId = {
-            R.drawable.bakery,
+            R.drawable.food,
             R.drawable.coffee,
             R.drawable.comedy,
             R.drawable.formal,
@@ -47,13 +48,35 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*nav drawer*/
+
+        //nav drawer
 
         mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         mActivityTitle = getTitle().toString();
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         addDrawerItems();
         setupDrawer();
+
+        mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==0){
+                    Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);
+                    startActivity(goToNextActivity);}
+                else if(position==1){
+                    Intent goToNextActivity = new Intent(MainActivity.this, Travel.class);
+                    startActivity(goToNextActivity);
+                }
+                else if(position==2){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Events.class);
+                    startActivity(goToNextActivity);
+                }
+                else if(position==3){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Lifestyle.class);
+                    startActivity(goToNextActivity);
+                }
+            }
+        });
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -69,8 +92,32 @@ public class MainActivity extends AppCompatActivity {
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "You Clicked at " + web[+position], Toast.LENGTH_SHORT).show();
-
+                if(position==0){
+                    Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);
+                    startActivity(goToNextActivity);}
+                else if(position==1){
+                        Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);
+                        startActivity(goToNextActivity);
+                    }
+                else if(position==2){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Events.class);
+                    startActivity(goToNextActivity);
+                }
+                else if(position==3){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Lifestyle.class);
+                    startActivity(goToNextActivity);
+                }
+                else if(position==4){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Travel.class);
+                    startActivity(goToNextActivity);
+                }
+                else if(position==5){
+                    Intent goToNextActivity = new Intent(MainActivity.this,Food_n_Drinks.class);
+                    startActivity(goToNextActivity);
+                }
+                else {
+                    Toast.makeText(MainActivity.this, "You Clicked at " + web[+position], Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -79,9 +126,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void addDrawerItems() {
         final ArrayList<customnav> navs=new ArrayList<customnav>();
-        navs.add(new customnav(R.drawable.logo,"Android"));
-        navs.add(new customnav(R.drawable.logo,"IOS"));
-        navs.add(new customnav(R.drawable.logo,"Windows"));
+        navs.add(new customnav(R.drawable.cutlery,"Food and Drinks"));
+        navs.add(new customnav(R.drawable.direction,"Travel"));
+        navs.add(new customnav(R.drawable.jewel,"Events"));
+        navs.add(new customnav(R.drawable.heart,"Lifestyle"));
         customnavadapter adapternav=new customnavadapter(this,navs);
         mDrawerList.setAdapter(adapternav);
     }

@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Food_n_Drinks"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Travel"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Events"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Lifestyle"
+            android:parentActivityName=".MainActivity"/>
+
     </application>
 
 </manifest>
