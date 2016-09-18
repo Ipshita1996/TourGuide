@@ -13,33 +13,31 @@ import java.util.ArrayList;
 /**
  * Created by Ipshita on 18-09-2016.
  */
-public class itemadapter extends ArrayAdapter<item> {
+public class descadapter extends ArrayAdapter<desc> {
 
-    public itemadapter(Context context, ArrayList<item> items){
-        super(context, 0, items);
+    public descadapter(Context context, ArrayList<desc> descs) {
+        super(context, 0, descs);
     }
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
-
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.category_list_item, parent, false);
+                    R.layout.category_desc_item, parent, false);
         }
-        item currentitem = getItem(position);
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.title);
-        titleTextView.setText(currentitem.get_title());
+        desc currentdesc = getItem(position);
+        TextView titleTextView = (TextView) listItemView.findViewById(R.id.heading);
+        titleTextView.setText(currentdesc.gettitle());
 
-        TextView stitleTextView = (TextView) listItemView.findViewById(R.id.stitle);
-        stitleTextView.setText(currentitem.get_subtitle());
+        TextView stitleTextView = (TextView) listItemView.findViewById(R.id.desc);
+        stitleTextView.setText(currentdesc.getdesc());
 
-        ImageView img=(ImageView) listItemView.findViewById(R.id.category_image);
-        img.setImageResource(currentitem.getimage());
+        ImageView img=(ImageView) listItemView.findViewById(R.id.pic);
+        img.setImageResource(currentdesc.getimg());
 
         return listItemView;
 
     }
+
 }

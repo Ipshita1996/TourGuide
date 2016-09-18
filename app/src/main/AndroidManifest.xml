@@ -16,18 +16,23 @@
             </intent-filter>
         </activity>
         <activity
+            android:label="Food and Drinks"
             android:name=".Food_n_Drinks"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:label="Travel"
             android:name=".Travel"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:label="Events"
             android:name=".Events"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:label="Lifestyle"
             android:name=".Lifestyle"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".toptenfoods"
+            android:label="Food and Drinks"
             android:parentActivityName=".Food_n_Drinks"/>
     </application>
 

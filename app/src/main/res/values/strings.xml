@@ -14,4 +14,38 @@
     //this is for the sub activities
     <string name="food_title_1">Top ten famous dishes of Delhi</string>
     <string name="food_stitle_1">Check out the places you can try out the best.</string>
+
+    //this for sub sub activities
+    <string name="title1">Paranthas</string>
+    <string name="desc1">
+        From being the perfect start to a “healthy” morning in most Delhi households,
+        to a meal for hungry college students and even a late-night snack, paranthas are definitely
+        on the top of the list when it comes to my favorite food in Delhi. Choose from a plain one or
+        select a stuffing of your choice - potatoes, cauliflower, radish, eggs, keema, bananas or even last nights left
+        over dal - the options are galore.
+    </string>
+    <string name="title2">Chaat</string>
+    <string name="desc2">
+        If there is one thing that keeps the Delhi food scene ticking it’s the Street Food.
+        With a variety that is unmatched, eating on the streets of Delhi is a crash course in the history and culture
+        of the place. Chandni Chowk is undoubtedly the Street Food Capital of Delhi, and while no guide book
+        can actually pinpoint the best places for Chaat, there are some landmark food haunts that really stand out.
+        Of course, if you aren’t willing to travel that far,fret not for there are plenty of options for street food in Delhi.
+    </string>
+    <string name="title3"></string>
+    <string name="desc3"></string>
+    <string name="title4"></string>
+    <string name="desc4"></string>
+    <string name="title5"></string>
+    <string name="desc5"></string>
+    <string name="title6"></string>
+    <string name="desc6"></string>
+    <string name="title7"></string>
+    <string name="desc7"></string>
+    <string name="title8"></string>
+    <string name="desc8"></string>
+    <string name="title9"></string>
+    <string name="desc9"></string>
+    <string name="title10"></string>
+    <string name="desc10"></string>
 </resources>
