@@ -32,20 +32,164 @@
         can actually pinpoint the best places for Chaat, there are some landmark food haunts that really stand out.
         Of course, if you aren’t willing to travel that far,fret not for there are plenty of options for street food in Delhi.
     </string>
-    <string name="title3"></string>
-    <string name="desc3"></string>
-    <string name="title4"></string>
-    <string name="desc4"></string>
-    <string name="title5"></string>
-    <string name="desc5"></string>
-    <string name="title6"></string>
-    <string name="desc6"></string>
-    <string name="title7"></string>
-    <string name="desc7"></string>
-    <string name="title8"></string>
-    <string name="desc8"></string>
-    <string name="title9"></string>
-    <string name="desc9"></string>
-    <string name="title10"></string>
-    <string name="desc10"></string>
+    <string name="title3">Butter Chicken</string>
+    <string name="desc3">
+        Here’s an interesting story about the origin of one of the most gratifying dishes on this planet.
+        It originated in the 1950s in Moti Mahal Restaurant, Daryaganj, a neighbourhood skirting the Walled City.
+        Known for its Tandoori Chicken, the cooks there accidentally tossed the sauce consisting of butter,
+        tomato and chicken juices with tandoori chicken pieces; the rest is history.Today, this dish can be found
+        in almost every non-vegetarian restaurant and highway dhabas and is best enjoyed with rice or naan.
+    </string>
+    <string name="title4">Kebab</string>
+    <string name="desc4">
+        Whoever thought grilled chunks of meat or fish marinated in aromatic Indian spices couldn’t give you joy should think again.
+        While we Delhiites have a lot to be thankful for to the Mughals, Kebabs are one of them.
+        Whether it is Kebabs being delivered to your car, a quintessentially Delhi experience, to food stalls and fine
+        dining restaurants across the city, try this popular dish and you will be hooked forever.
+    </string>
+    <string name="title5">Chole Bhature</string>
+    <string name="desc5">
+        Here’s a piece of advice: This dish is best enjoyed on an empty stomach. Rich, spicy and heavy, this is one of
+        the most popular Punjabi dishes and is definitely on my list of top 10 must-try dishes in Delhi.
+        Don’t be surprised if you find it on the breakfast menu of restaurants across the capital.
+        You can find this lip smacking dish at all food joints,
+        be it local joints or restaurants, given its popularity with delhiites. It is generally accompanied with Lassi.
+    </string>
+    <string name="title6">Biryani</string>
+    <string name="desc6">
+        A favourite of the Mughal Emperors, the Biryani has stood the test of time and is today enjoyed all over India.
+        This poultry or meat based dish is prepared in an earthen pot and the lid is sealed with dough so that the spices,
+        flavours and aromas are soaked in.The Biryani experiences in Delhi vary from the commercial chains and road side dhabas, to the Sufi shrines and five-star hotels.
+    </string>
+    <string name="title7">Nihari</string>
+    <string name="desc7">
+        As you enter Old Delhi and walk into the serpentine lanes, you can’t help but be drawn to the aroma of one of the region’s
+        signature delicacies, the Nihari. This rich, spicy broth of slow cooked meat is served alongside hot tandoori rotis or preferably
+        khameeri rotis. The dish was a favourite within the royal families, who used to feast on it in the mornings.
+        Today it serves as the ideal nourishment for labourers, rickshaw pullers, coolies and many others looking to kick start their day.
+    </string>
+    <string name="title8">Rolls</string>
+    <string name="desc8">
+        Ok, so we aren’t going to take the credit away from Kolkata, where the original Kathi roll recipe was developed,
+        but Delhi has its own delicious variants. From street stalls offering a variety of rolls, to supermarkets stocking up on frozen options
+        and even the posh Delhi restaurants, Kathi rolls are a befitting food option for busy Delhiites on the go.
+    </string>
+    <string name="title9">Momos</string>
+    <string name="desc9">
+        This one bags the prize for being one of the most popular snacks, be it in office complexes,
+        birthdays or even cocktail parties. It is not uncommon to find vendors outside almost every office building, housing area and market place selling Momos.
+        These tasty dumplings are available in both vegetarian and non-vegetarian options and are enjoyed with the fiery-red sauce.
+    </string>
+    <string name="title10">Desserts</string>
+    <string name="desc10">
+        You are probably familiar with this line used across all Delhi households “Khaane ke baad kuch meetha ho jaye”
+        (“Let’s eat something sweet after a meal”). With the extensive variety of desserts offered in the capital, it is hard to say no.
+        From the piping-hot Jalebis and lip-smacking Rabri Falooda, to innovative Kulfis in flavours like Custard Apple,
+        Tamarind and Aam Papad, the delicious Motichoor Ladoo made from pure desi ghee and Blueberry Cheesecake; Delhi sure loves its sweets!
+    </string>
+
+    <string name="food_title2">Following Delhi\'s Food Trail</string>
+    <string name="food_stitle2">The best of the best</string>
+    <string name="food_content">
+        If you find yourself traversing the roads of  Old Delhi and are someone who’s eternally hungry, keep your eyes open for a chaat outlet here or a sweetmeat shop there. Because, true to its gastronomic style, delhi is one place that the hungry traveller will never be disappointed with.
+
+Travel is incomplete without food. Every place in the world boasts of a cuisine that is unique and Delhi is no exception. Visitors from aboard come with a picture of a colourful city with bustling streets, the call of the muezzin from a nearby mosque or the triangular flag atop a mandir, peddlers hawking their wares on the streets and a kindly hotelier offering respite from the heat and the dust of an always-on-the-move city – not far from the truth, is it?
+
+If you’re a first timer in Delhi, you will witness two unmistakable sights – one, throngs of phoren tourists angling hard for a bargain with street and retail vendors for souvenirs – shawls, bags, cheap sunglasses, handmade curios, and the like; two, the hungry Indian or Asian, not necessarily a traveller, looking for a place to rest his behind and ascend into taste bud nirvana. Known for its glorification of gluttony, wherever you might be in Delhi, chances are you are just a whiff away from the neighbourhood restaurant.
+
+Delhi is a foodie haven – for the gourmet meal aficionado as well as the street-eats loving yuppie. And , as the unplanned half of Delhi is popularly called, is known for its inexpensive indulgences like the poor man’s thirst quencher, lassi (comes in many varieties, but keep your eyes open for the rich, creamy, with extra cream on top version) or short eats to help one survive those hungry hours between lunch and dinner.
+
+If Old Delhi promises you rich returns for your rupee in terms of gastronomic value, Gurgaon is for the discerning gourmand. Unapologetically opulent in every sense of the word, Gurgaon, the meeting place of the three states of Delhi, Haryana and Punjab, demands a heavy price from your wallet, but if you can keep your senses about you, will give you value for the money you spend. Huge malls, housing/apartment complexes and business and technology parks dot the landscape here. You’ll find your customary food outlets in all of these malls, Subway, McDonalds, KFC, pizza outlets and their various international brethren, but if you want to get a taste of Delhi, head to the suburbs and seek out that which Delhi is famous for, its generosity with dairy products and sugar and nuts.
+
+You can rest your tired feet in various food streets and mid-priced outlets for your customary lunch or dinner of paneer butter masala and piping hot parathas dripping with butter, but the real taste of Delhi is in the hotels on street corners and chowks, teeming with hungry people, tucking in plates of channa batura, gol gappas, parathas and ladlefuls of dal makhni. And for the non-vegetarian, the two famed chicken dishes of Delhi, chicken tikka and butter chicken, are said to be everything a bowl of dal makhni is not.
+
+And in what can be seen as ample evidence of Delhi’s “live life king size” spirit, there are the sweetmeat shops, maybe a hop and half a skip away from tiredness or boredom, that line the city’s streets, selling pethas and halwas and malpuas and rabri and the piping hot jalebi, even late into the night. Look out for gajak, the north Indian cousin of the humble peanut chikki if you have a sweet tooth and like a sweet snack with bite. And with your evening cuppa masala chai, ask for matthis, a crispy, salty snack.
+
+Some of the tried and tested vegetarian dishes that you must indulge in when in Delhi are:
+
+The Punjabi thali – they’re quite unlike what you’ll be accustomed to. For an authentic taste of North Indian cuisine, and if you like your lunch or dinner to be a generous meal, do not miss out on the thali.
+The rotis – If your stay is for at least 3-4 days or longer, you must try each and every roti there is on the menu. If you’re South Indian, forget rice for a while – rotis are where it’s at in Delhi.
+Street Food – From chaats to rabri to lassi to stuffed parathas to kulfi to kaju katli to hot jalebis to pakoras to bajiyas to khasta kachoris – you name it, you’ll find it here.
+The classic channa batura – The batura (large puri) in question here is indeed large and generous, and the channa is spicy, robustly flavoured and will keep you feeling full for hours. If you’re not too concerned about your calorie intake, this is something you must try.
+A la carte, for the adventurous foodie – Take a look at the extensive menu in front of you and order the sabzi or chicken dish of your choice!
+And if all of this is a bit much after a hard day’s toil of meeting with clients and an evening’s worth of shopping for people back home, there’s that wonderful after-meal remedy that can lighten your load, literally – the ubiquitous paan. But Delhi restaurateurs are always one-up in this regard – your meal usually begins with a glass of jaljeera on the house, or comes strongly recommended by the waiter, in order to help your digestive system not get ahead of itself.
+
+To those whose strongest relationship is with food, Delhi is a place to let your heart (stomach?) roam free, without guilt, without restraint and without fear.
+    </string>
+
+    //travel sub activity
+    <string name="travel_title_1">Top 7 things to do in Delhi</string>
+    <string name="travel_stitle_1">A glimpse of all the best places!</string>
+
+    <string name="title11">Explore Old Delhi on Foot</string>
+    <string name="desc11">
+        The winding lanes of Old Delhi, former Shahjahanabad, bear testament to centuries of Mughal rule.
+        Start your walk at the Red Fort, built by Shah Jahan in the 17th century, and continue onwards to Chandni Chowk,
+        one of the oldest and busiest of Delhi’s markets. Take a detour through Dariba Kalan, Asia’a largest jewellery market to shop
+        for silver and curios, before heading to the famous Jama Masjid, one of the largest mosques in India.
+        End your walk with a traditional Mughlai meal at Karim’s or Al Jawahar in the Masjid area.
+    </string>
+    <string name="title12">Go for an Early-morning Run at Lodi Gardens</string>
+    <string name="desc12">
+        Morning walks at Lodi Gardens, near Khan Market, is where you can meet Delhi’s social and political elite.
+        The Gardens themselves are beautiful: a lush, sprawling stretch of green in the heart of the city.
+        If you’re historically inclined, spend some time at the tombs of Sikander Lodi or Mohammad Shah, or simply enjoy a
+        lazy picnic on the lawns with friends.
+
+    </string>
+    <string name="title13">Stroll down Rajpath, the Country’s Seat of Power</string>
+    <string name="desc13">
+        Central Delhi, often called Lutyens’ Delhi after the British architect who designed it, is the seat of political power in Delhi,
+        and the country. Start with the Rashtrapti Bhawan, on Raisina Hill, and walk down the Rajpath. On your way are the Secretariat Building,
+        which houses the PM’s office and various ministries, and the Parliament of India at Vijay Chowk.
+        End your walk at the India Gate, India’s memorial to honour the soldiers who lost their lives at war.
+    </string>
+    <string name="title14">Spend a Day at Humayun’s Tomb</string>
+    <string name="desc14">
+
+It’s hard to pick only a monument to visit in Delhi: there are so many to choose from! But if we could recommend only one,
+        it would be the tomb of Mughal Emperor Humayun in Nizamuddin East. Built in red sandstone, and with intricate inlay work that
+        reflects Central Asian and Persian influences, this building is an architectural marvel.
+        The 30-acre Char Bagh Gardens that surround the tomb, built in traditional Persian style, are also breathtaking.
+    </string>
+    <string name="title15">Eat, Drink and Shop at Paharganj</string>
+    <string name="desc15">
+        Right in front of the Old Delhi Railway Station is a stretch of street called the Paharganj Main Market—an assorted
+        medley of budget hotels, souvenir shops and hole-in-the-wall eating joints. Mainly frequented by backpackers from around the world,
+        Paharganj is the perfect place to shop everything from curios to brightly coloured harem pants and leather bags.
+        When you’re done shopping, stop by for a cheap drink at My Bar; sample some schnitzel and hummus at Diamond Café or try
+        authentic soju at The Shim Tur Korean Café.
+    </string>
+    <string name="title16">Party it Up at Hauz Khas Village</string>
+    <string name="desc16">
+      Once a tiny village that sprung up around a reservoir built by Allauddin Khilji, Hauz Khas today is a jumbling maze of narrow alleys
+        lined with the trendiest eateries and pubs in South Delhi. By the day, history buffs and canoodling couple roam the ruins
+        (which houses Firoz Shah’s tomb, a madrasa and a mosque), but as night falls, the place lights up to welcome youngsters coming
+        in to drink, dance and party at HKV (as it’s popularly called).
+        Most places have live music nights and you can party the night away at one of the endless pubs and restaurants in the area.
+    </string>
+
+    <string name="event_title1">Flowers for Every Reason and Season</string>
+    <string name="eventcontent">You might’ve thought of Delhi as a cold, dreary, foggy place in winters and you won’t be too far from the truth. But come February, and its spring time in the city; winter is packing up its arsenal, the sun is back on its throne and the seeds sown in the cold months are finally out as bright, colourful flowers, full of hope. The Garden Tourism Festival is a great time to travel to Delhi to see blooming chrysanthemums, petunias, carnations and roses over 25 acres that make up Saidul Ajab or the Garden of Five Senses, the venue of the festival.
+
+Flowers for Every Reason and Season
+
+Flowers are pretty, a joy to look at, and a perfect gift for a loved one. But did you know that each flower conveys a particular meaning to the receiver? In Victorian England, flowers were used to send coded messages and the art, known as floriography, is all but lost now. But wouldn’t it be fun to know exactly what message each type of flower at the Garden Tourism Festival symbolises? Make a note of the festival dates, February 15-17, spend a day or two at the Garden of Five Senses at the Delhi flower show and surprise your friends and family with your new found knowledge:
+
+Chrysanthemum: While red chrysanthemums send the message of love, yellow ones signify unrequited love or worse – rejected love.
+
+Petunia: A petunia could convey either resentment or anger or tell the receiver that his presence is soothing.
+
+Carnations: Carnations are especially expressive flowers and could mean anything from fascination to memorable (pink), admiration (red) refusal (striped) and innocence (white).
+
+Roses: Roses once again could convey a range of emotions like love (red), mourning (deep crimson) and modesty (peach).
+
+Larkspur: Larkspur or delphinium compliments the receiver as a fun loving and gregarious person.
+
+Geranium: Geraniums are meant for gentle souls and make great gifts when you want to thank someone for their kindness.
+
+At the Delhi Flower Show, make time for the kid’s painting competition – a delight for the young ones, watch cultural programs at the venue and sample some delicious street food before you head to the stalls to buy quality gardening wares like pots, hangars and sprayers.
+
+In all, the Garden Tourism Festival is filled with nature’s most delightful offering – flowers – and makes for a great outing for the whole family. Go smell the roses and tell us all about it! </string>
+
 </resources>

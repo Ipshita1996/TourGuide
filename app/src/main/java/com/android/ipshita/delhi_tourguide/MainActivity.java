@@ -27,19 +27,16 @@ public class MainActivity extends AppCompatActivity {
     GridView grid;
     int[] web = {
             R.string.topdishes,
-            R.string.coffee,
-            R.string.comedy,
-            R.string.formal,
-            R.string.edc,
-            R.string.restaurant
+            R.string.travel_title_1,
+            R.string.event_title1,
+            R.string.food_title2
+
     };
     int[] imageId = {
             R.drawable.food,
-            R.drawable.coffee,
-            R.drawable.comedy,
-            R.drawable.formal,
-            R.drawable.edc,
-            R.drawable.restsurant
+            R.drawable.travel,
+            R.drawable.event,
+            R.drawable.food2
     };
 
 
@@ -96,23 +93,15 @@ public class MainActivity extends AppCompatActivity {
                     Intent goToNextActivity = new Intent(MainActivity.this, toptenfoods.class);
                     startActivity(goToNextActivity);}
                 else if(position==1){
-                        Intent goToNextActivity = new Intent(MainActivity.this, Food_n_Drinks.class);
+                        Intent goToNextActivity = new Intent(MainActivity.this, topseventravel.class);
                         startActivity(goToNextActivity);
                     }
                 else if(position==2){
-                    Intent goToNextActivity = new Intent(MainActivity.this,Events.class);
+                    Intent goToNextActivity = new Intent(MainActivity.this,flowerevents.class);
                     startActivity(goToNextActivity);
                 }
                 else if(position==3){
-                    Intent goToNextActivity = new Intent(MainActivity.this,Lifestyle.class);
-                    startActivity(goToNextActivity);
-                }
-                else if(position==4){
-                    Intent goToNextActivity = new Intent(MainActivity.this,Travel.class);
-                    startActivity(goToNextActivity);
-                }
-                else if(position==5){
-                    Intent goToNextActivity = new Intent(MainActivity.this,Food_n_Drinks.class);
+                    Intent goToNextActivity = new Intent(MainActivity.this,foodtrail.class);
                     startActivity(goToNextActivity);
                 }
                 else {

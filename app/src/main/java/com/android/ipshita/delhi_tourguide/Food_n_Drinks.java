@@ -18,6 +18,7 @@ public class Food_n_Drinks extends AppCompatActivity {
 
         final ArrayList<item> items=new ArrayList<item>();
         items.add(new item(R.string.food_title_1,R.string.food_stitle_1,R.drawable.food));
+        items.add(new item(R.string.food_title2,R.string.food_stitle2,R.drawable.food2));
 
         itemadapter itemsAdapter = new itemadapter(this, items);
 
@@ -31,6 +32,11 @@ public class Food_n_Drinks extends AppCompatActivity {
                 if(position==0)
                 {
                     Intent goToNextActivity = new Intent(Food_n_Drinks.this, toptenfoods.class);
+                    startActivity(goToNextActivity);
+                }
+                if(position==1)
+                {
+                    Intent goToNextActivity = new Intent(Food_n_Drinks.this, foodtrail.class);
                     startActivity(goToNextActivity);
                 }
             }
