@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -104,9 +103,6 @@ public class MainActivity extends AppCompatActivity {
                     Intent goToNextActivity = new Intent(MainActivity.this,foodtrail.class);
                     startActivity(goToNextActivity);
                 }
-                else {
-                    Toast.makeText(MainActivity.this, "You Clicked at " + web[+position], Toast.LENGTH_SHORT).show();
-                }
             }
         });
 
@@ -115,10 +111,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void addDrawerItems() {
         final ArrayList<customnav> navs=new ArrayList<customnav>();
-        navs.add(new customnav(R.drawable.cutlery,"Food and Drinks"));
-        navs.add(new customnav(R.drawable.direction,"Travel"));
-        navs.add(new customnav(R.drawable.jewel,"Events"));
-        navs.add(new customnav(R.drawable.heart,"Lifestyle"));
+        navs.add(new customnav(R.drawable.cutlery,R.string.navFood));
+        navs.add(new customnav(R.drawable.direction,R.string.navtravel));
+        navs.add(new customnav(R.drawable.jewel,R.string.navevent));
+        navs.add(new customnav(R.drawable.heart,R.string.navlife));
         customnavadapter adapternav=new customnavadapter(this,navs);
         mDrawerList.setAdapter(adapternav);
     }
@@ -129,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             /** Called when a drawer has settled in a completely open state. */
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
-                getSupportActionBar().setTitle("Where to?");
+                getSupportActionBar().setTitle(R.string.nav);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
 

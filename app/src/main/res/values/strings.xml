@@ -192,4 +192,10 @@ At the Delhi Flower Show, make time for the kid’s painting competition – a d
 
 In all, the Garden Tourism Festival is filled with nature’s most delightful offering – flowers – and makes for a great outing for the whole family. Go smell the roses and tell us all about it! </string>
 
+
+    <string name="nav">Where to?</string>
+    <string name="navFood">Food and Drinks</string>
+    <string name="navtravel">Travel</string>
+    <string name="navevent">Events</string>
+    <string name="navlife">Lifestyle</string>
 </resources>

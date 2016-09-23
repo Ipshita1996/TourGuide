@@ -5,9 +5,9 @@ package com.android.ipshita.delhi_tourguide;
  */
 public class customnav {
     private int mImageID;
-    private String mText;
+    private int mText;
 
-    public customnav(int ImageID, String Text){
+    public customnav(int ImageID, int Text){
         mImageID=ImageID;
         mText=Text;
     }
@@ -15,7 +15,7 @@ public class customnav {
     public int getimageID(){
         return mImageID;
     }
-    public String getText(){
+    public int getText(){
         return mText;
     }
 }
